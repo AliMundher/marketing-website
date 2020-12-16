@@ -1,0 +1,88 @@
+body {
+  overflow-x: hidden;
+  header {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 100%;
+    .logo {
+      font-size: 1em;
+      font-weight: bold;
+      .lap {
+        color: #ffd400;
+      }
+    }
+    .icons_social {
+      i {
+        width: 25px;
+        height: 25px;
+        background-color: #a1a1a1;
+        color: #000;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 25px;
+        font-size: 0.7em;
+        cursor: pointer;
+        transition: all 0.4s ease;
+        &:hover {
+          background-color: #ffd400;
+        }
+      }
+    }
+    .text_header {
+      h2 {
+        font-size: 5em;
+
+        color: white;
+        .we {
+          text-transform: capitalize;
+          color: #ffd400;
+          position: relative;
+          left: 4%;
+          top: 27px;
+        }
+        .more {
+          position: relative;
+          left: 20%;
+          top: 12px;
+        }
+        .just {
+          position: relative;
+          left: 40%;
+        }
+      }
+    }
+    .circle {
+      .big_circle {
+        width: 550px;
+        height: 550px;
+        border: 1px solid white;
+        border-radius: 50%;
+        position: relative;
+        top: -93px;
+        left: -193px;
+        position: relative;
+      }
+      .small_circle {
+        width: 29px;
+        height: 29px;
+        background-color: #ffd400;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 77px;
+        left: 45px;
+      }
+    }
+  }
+  .right {
+    background-color: bisque;
+  }
+}
+
+// Bootstrap
+.bg-light {
+  background-color: transparent !important;
+}
+.nav-link {
+  font-size: 0.9em !important;
+}
