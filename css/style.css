@@ -1,5 +1,7 @@
 body {
+  height: 3000px;
   overflow-x: hidden;
+  background-color: #e5e5e5;
 }
 
 body header {
@@ -63,7 +65,7 @@ body header .text_header h2 .just {
 body header .circle .big_circle {
   width: 550px;
   height: 550px;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
   position: relative;
   top: -93px;
@@ -81,8 +83,89 @@ body header .circle .small_circle {
   left: 45px;
 }
 
-body .right {
-  background-color: bisque;
+body header .circle .arow {
+  color: white;
+  position: absolute;
+  bottom: 81px;
+  left: 74px;
+}
+
+body header .circle .talk {
+  position: absolute;
+  left: 99px;
+  bottom: 80px;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+body .under .about .title {
+  padding: 10px 0;
+  font-size: 1.5em;
+  position: relative;
+}
+
+body .under .about .title:after {
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 50%;
+  height: 5px;
+  background-color: #ffd400;
+}
+
+body .under .about a {
+  text-decoration: none;
+  color: #000;
+}
+
+body .rigth img {
+  width: 100%;
+}
+
+body .rigth .box1 {
+  background-color: #fff;
+  padding: 10px;
+}
+
+body .rigth .box1 p {
+  position: relative;
+  left: 17px;
+}
+
+body .rigth .box1 h3 {
+  position: relative;
+  left: 7px;
+}
+
+body .rigth .box1 a {
+  font-size: 0.8em;
+  font-weight: bold;
+  position: relative;
+  left: 17px;
+}
+
+body .rigth .box2 {
+  background-color: #ffd400;
+  padding: 10px;
+  padding-bottom: 34px;
+}
+
+body .rigth .box2 h3 {
+  position: relative;
+  left: 17px;
+}
+
+body .rigth .box2 p {
+  position: relative;
+  left: 17px;
+}
+
+body .rigth .box2 a {
+  font-size: 0.8em;
+  font-weight: bold;
+  position: relative;
+  left: 17px;
 }
 
 .bg-light {

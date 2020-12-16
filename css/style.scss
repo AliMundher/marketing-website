@@ -1,5 +1,7 @@
 body {
+  height: 3000px;
   overflow-x: hidden;
+  background-color: #e5e5e5;
   header {
     position: relative;
     background-color: rgb(0, 0, 0);
@@ -56,7 +58,7 @@ body {
       .big_circle {
         width: 550px;
         height: 550px;
-        border: 1px solid white;
+        border: 2px solid white;
         border-radius: 50%;
         position: relative;
         top: -93px;
@@ -72,10 +74,84 @@ body {
         bottom: 77px;
         left: 45px;
       }
+      .arow {
+        color: white;
+        position: absolute;
+        bottom: 81px;
+        left: 74px;
+      }
+      .talk {
+        position: absolute;
+        left: 99px;
+        bottom: 80px;
+        font-size: 0.7em;
+        font-weight: bold;
+      }
     }
   }
-  .right {
-    background-color: bisque;
+  .under {
+    .about {
+      .title {
+        padding: 10px 0;
+        font-size: 1.5em;
+        position: relative;
+        &:after {
+          content: '';
+          position: absolute;
+          top: 35px;
+          left: 0;
+          width: 50%;
+          height: 5px;
+          background-color: #ffd400;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+  }
+  .rigth {
+    img {
+      width: 100%;
+    }
+    .box1 {
+      background-color: #fff;
+      padding: 10px;
+      p {
+        position: relative;
+        left: 17px;
+      }
+      h3 {
+        position: relative;
+        left: 7px;
+      }
+      a {
+        font-size: 0.8em;
+        font-weight: bold;
+        position: relative;
+        left: 17px;
+      }
+    }
+    .box2 {
+      background-color: #ffd400;
+      padding: 10px;
+      padding-bottom: 34px;
+      h3 {
+        position: relative;
+        left: 17px;
+      }
+      p {
+        position: relative;
+        left: 17px;
+      }
+      a {
+        font-size: 0.8em;
+        font-weight: bold;
+        position: relative;
+        left: 17px;
+      }
+    }
   }
 }
 
