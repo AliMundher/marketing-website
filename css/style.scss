@@ -1,3 +1,24 @@
+// Start Some Classes
+.link {
+  font-size: 0.9em;
+  font-weight: bold;
+  position: relative;
+  left: 17px;
+  text-decoration: none;
+  color: #000;
+}
+.box_h3 {
+  position: relative;
+  left: 7px;
+}
+.box_p {
+  position: relative;
+  left: 17px;
+}
+// End Some Classes
+
+// Start Body
+
 body {
   height: 3000px;
   overflow-x: hidden;
@@ -137,18 +158,13 @@ body {
       background-color: #fff;
       padding: 10px;
       p {
-        position: relative;
-        left: 17px;
+        @extend .box_p;
       }
       h3 {
-        position: relative;
-        left: 7px;
+        @extend .box_h3;
       }
       a {
-        font-size: 0.8em;
-        font-weight: bold;
-        position: relative;
-        left: 17px;
+        @extend .link;
       }
     }
     .box2 {
@@ -156,24 +172,21 @@ body {
       padding: 10px;
       padding-bottom: 34px;
       h3 {
-        position: relative;
-        left: 17px;
+        @extend .box_h3;
       }
       p {
-        position: relative;
-        left: 17px;
+        @extend .box_p;
       }
       a {
-        font-size: 0.8em;
-        font-weight: bold;
-        position: relative;
-        left: 17px;
+        @extend .link;
       }
     }
   }
 }
 
-// Bootstrap
+// End Body
+
+// Bootstrap Chang
 .bg-light {
   background-color: transparent !important;
 }

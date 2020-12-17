@@ -1,3 +1,22 @@
+.link, body .rigth .box1 a, body .rigth .box2 a {
+  font-size: 0.9em;
+  font-weight: bold;
+  position: relative;
+  left: 17px;
+  text-decoration: none;
+  color: #000;
+}
+
+.box_h3, body .rigth .box1 h3, body .rigth .box2 h3 {
+  position: relative;
+  left: 7px;
+}
+
+.box_p, body .rigth .box1 p, body .rigth .box2 p {
+  position: relative;
+  left: 17px;
+}
+
 body {
   height: 3000px;
   overflow-x: hidden;
@@ -153,44 +172,10 @@ body .rigth .box1 {
   padding: 10px;
 }
 
-body .rigth .box1 p {
-  position: relative;
-  left: 17px;
-}
-
-body .rigth .box1 h3 {
-  position: relative;
-  left: 7px;
-}
-
-body .rigth .box1 a {
-  font-size: 0.8em;
-  font-weight: bold;
-  position: relative;
-  left: 17px;
-}
-
 body .rigth .box2 {
   background-color: #ffd400;
   padding: 10px;
   padding-bottom: 34px;
-}
-
-body .rigth .box2 h3 {
-  position: relative;
-  left: 17px;
-}
-
-body .rigth .box2 p {
-  position: relative;
-  left: 17px;
-}
-
-body .rigth .box2 a {
-  font-size: 0.8em;
-  font-weight: bold;
-  position: relative;
-  left: 17px;
 }
 
 .bg-light {
