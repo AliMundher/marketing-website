@@ -112,6 +112,24 @@ body {
     }
   }
   .rigth {
+    position: relative;
+    .right_icons {
+      position: absolute;
+      bottom: 24%;
+      left: 27px;
+      font-size: 1.5em;
+      background-color: white;
+      width: 87px;
+      text-align: center;
+      .fa-long-arrow-left,
+      .fa-long-arrow-right {
+        cursor: pointer;
+      }
+
+      @media (max-width: 991px) {
+        bottom: 44%;
+      }
+    }
     img {
       width: 100%;
     }

@@ -119,6 +119,31 @@ body .under .about a {
   color: #000;
 }
 
+body .rigth {
+  position: relative;
+}
+
+body .rigth .right_icons {
+  position: absolute;
+  bottom: 24%;
+  left: 27px;
+  font-size: 1.5em;
+  background-color: white;
+  width: 87px;
+  text-align: center;
+}
+
+body .rigth .right_icons .fa-long-arrow-left,
+body .rigth .right_icons .fa-long-arrow-right {
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  body .rigth .right_icons {
+    bottom: 44%;
+  }
+}
+
 body .rigth img {
   width: 100%;
 }
